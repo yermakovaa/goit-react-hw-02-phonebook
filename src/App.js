@@ -24,12 +24,19 @@ class App extends Component {
     };
 
     const { contacts } = this.state;
-    const normalizedName = name.toLowerCase();
 
-    if (contacts.find(({ name }) => name.toLowerCase() === normalizedName)) {
+    if (
+      contacts.find(
+        contact => contact.name.toLowerCase() === name.toLowerCase(),
+      )
+    ) {
       alert(`${name} is already in contacts.`);
-    } else if (name === '' || number === '') {
+    } else if (contacts.find(contact => contact.number === number)) {
+      alert(`${number} is already in contacts.`);
+    } else if (name.trim() === '' || number.trim() === '') {
       alert("Enter the contact's name and number phone!");
+    } else if (!/\d{3}[-]\d{2}[-]\d{2}/g.test(number)) {
+      alert('Enter the correct number phone!');
     } else {
       this.setState(({ contacts }) => ({
         contacts: [contact, ...contacts],
@@ -57,18 +64,24 @@ class App extends Component {
   };
 
   render() {
-    const { filter } = this.state;
+    const { filter, contacts } = this.state;
     const visibleContacts = this.getVisibleContacts();
     return (
       <Container>
         <h1>Phonebook</h1>
         <ContactForm onSubmit={this.addContact} />
         <h2>Contacts</h2>
-        <Filter value={filter} onChange={this.changeFilter} />
-        <ContactList
-          contacts={visibleContacts}
-          onDeleteContact={this.deleteContact}
-        />
+        {contacts.length > 1 && (
+          <Filter value={filter} onChange={this.changeFilter} />
+        )}
+        {contacts.length > 0 ? (
+          <ContactList
+            contacts={visibleContacts}
+            onDeleteContact={this.deleteContact}
+          />
+        ) : (
+          <p>Your phonebook is empty. Please add contact.</p>
+        )}
       </Container>
     );
   }

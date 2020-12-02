@@ -1,7 +1,6 @@
 .label {
   display: block;
   margin-top: 10px;
-  margin-bottom: 30px;
   color: var(--secondaryTextColor);
   font-weight: 500;
   font-size: 18px;
