@@ -1,12 +1,12 @@
 {
-  "name": "name_project",
-  "homepage": "https://yermakovaa.github.io/name_project",
+  "name": "goit-react-hw-02-phonebook",
+  "homepage": "https://yermakovaa.github.io/goit-react-hw-02-phonebook",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.2.2",
+    "@testing-library/user-event": "^12.3.0",
     "gh-pages": "^3.1.0",
     "modern-normalize": "^1.0.0",
     "react": "^17.0.1",
@@ -43,7 +43,8 @@
   "devDependencies": {
     "husky": "^4.3.0",
     "lint-staged": "^10.5.2",
-    "prettier": "^2.2.0",
-    "prop-types": "^15.7.2"
+    "prettier": "^2.2.1",
+    "prop-types": "^15.7.2",
+    "shortid": "^2.2.16"
   }
 }
