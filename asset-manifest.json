@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-02-phonebook/static/css/main.a1c3986e.chunk.css",
-    "main.js": "/goit-react-hw-02-phonebook/static/js/main.1855938b.chunk.js",
-    "main.js.map": "/goit-react-hw-02-phonebook/static/js/main.1855938b.chunk.js.map",
+    "main.css": "/goit-react-hw-02-phonebook/static/css/main.5584e1a8.chunk.css",
+    "main.js": "/goit-react-hw-02-phonebook/static/js/main.027be386.chunk.js",
+    "main.js.map": "/goit-react-hw-02-phonebook/static/js/main.027be386.chunk.js.map",
     "runtime-main.js": "/goit-react-hw-02-phonebook/static/js/runtime-main.b2a408b7.js",
     "runtime-main.js.map": "/goit-react-hw-02-phonebook/static/js/runtime-main.b2a408b7.js.map",
     "static/css/2.de71bbd8.chunk.css": "/goit-react-hw-02-phonebook/static/css/2.de71bbd8.chunk.css",
-    "static/js/2.93f42f5f.chunk.js": "/goit-react-hw-02-phonebook/static/js/2.93f42f5f.chunk.js",
-    "static/js/2.93f42f5f.chunk.js.map": "/goit-react-hw-02-phonebook/static/js/2.93f42f5f.chunk.js.map",
+    "static/js/2.6dddccbf.chunk.js": "/goit-react-hw-02-phonebook/static/js/2.6dddccbf.chunk.js",
+    "static/js/2.6dddccbf.chunk.js.map": "/goit-react-hw-02-phonebook/static/js/2.6dddccbf.chunk.js.map",
     "index.html": "/goit-react-hw-02-phonebook/index.html",
     "static/css/2.de71bbd8.chunk.css.map": "/goit-react-hw-02-phonebook/static/css/2.de71bbd8.chunk.css.map",
-    "static/css/main.a1c3986e.chunk.css.map": "/goit-react-hw-02-phonebook/static/css/main.a1c3986e.chunk.css.map",
-    "static/js/2.93f42f5f.chunk.js.LICENSE.txt": "/goit-react-hw-02-phonebook/static/js/2.93f42f5f.chunk.js.LICENSE.txt"
+    "static/css/main.5584e1a8.chunk.css.map": "/goit-react-hw-02-phonebook/static/css/main.5584e1a8.chunk.css.map",
+    "static/js/2.6dddccbf.chunk.js.LICENSE.txt": "/goit-react-hw-02-phonebook/static/js/2.6dddccbf.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/goit-react-hw-02-phonebook/static/media/bg.860d3640.jpg",
+    "static/media/ContactList.module.css": "/goit-react-hw-02-phonebook/static/media/delete.9895197a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b2a408b7.js",
     "static/css/2.de71bbd8.chunk.css",
-    "static/js/2.93f42f5f.chunk.js",
-    "static/css/main.a1c3986e.chunk.css",
-    "static/js/main.1855938b.chunk.js"
+    "static/js/2.6dddccbf.chunk.js",
+    "static/css/main.5584e1a8.chunk.css",
+    "static/js/main.027be386.chunk.js"
   ]
 }
